@@ -5,6 +5,8 @@ go build ~/go/src/lurcury/core/
 go build ~/go/src/lurcury/client/
 #mv ~/go/src/lurcury/client/client ~/open-bin/
 #cd ~/open-bin/
+go build ~/go/src/lurcury/vvm/
 git add .
 git commit -m "renew bin file"
 git push
+
